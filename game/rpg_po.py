@@ -5,8 +5,8 @@ def batalha(escolha_player1, escolha_player2):
     if escolha_player1=="ladino" and escolha_player2=="mago": return "mago"
     if escolha_player1=="ladino" and escolha_player2=="guerreiro": return "ladino"
     if escolha_player1=="guerreiro" and escolha_player2=="ladino": return "ladino"
-
-
+    if escolha_player1=="mago" and escolha_player2=="ladino": return "mago"
+    
 
 
 
