@@ -28,4 +28,12 @@ class TestRpgPo(TestCase):
         escolha_player1 = "mago"
         escolha_player2 = "ladino"
         vencedor = rpgpo.batalha(escolha_player1, escolha_player2)
-        self.assertEqual(vencedor, escolha_player1  
+        self.assertEqual(vencedor, escolha_player1)  
+
+    def teste_em_batalha_entre_mago_e_guerreiro_ganha_o_guerreiro(self):
+        escolha_player1 = "mago"
+        escolha_player2 = "guerreiro"
+        vencedor = rpgpo.batalha(escolha_player1, escolha_player2)
+        self.assertEqual(vencedor, escolha_player2)
+    
+    
