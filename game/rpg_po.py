@@ -22,7 +22,9 @@ def main():
     
     print("uma pessoa misteriosa dis que é ninguém e aposta no nada...")
     ninguém = "nada"
-    
+
+    time.sleep(1)
+
     print("E a batalha começa...")
     print("QUE VENÇA O MELHOR!")
     time.sleep(3)
