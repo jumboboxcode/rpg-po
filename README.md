@@ -20,7 +20,7 @@ E Mago ganha de Ladino, porque apesar de esperto, o Ladino não resiste às brux
 
 ## Como jogar
 
-A versão alfa do jogo funciona por linha de comando através do terminal do seu computador. O único pré-requisito é [ter o Python instalado](https://www.python.org/downloads/) no seu computador.
+A versão alfa do jogo funciona por linha de comando através do terminal do seu computador. Os únicos pré-requisitos é ter o [Python] instalado(https://www.python.org/downloads/) no seu computador e um terminal também.
 
 ### Para rodar
 
@@ -67,7 +67,7 @@ Comece pelos testes.
 
 ## Para o futuro
 
-Temos muitas ideias, mas o que queremos mesmo é a diversão. Não só de quem joga, mas de quem desenvolve o jogo.
+Temos muitas ideias, mas o que queremos mesmo é a diversão. Não só de quem joga, mas de quem desenvolve o jogo também.
 
 Se você também tem alguma ideia, feedback ou sugestão, manda uma mensagem no [Twitter](https://twitter.com/lulacode)
 

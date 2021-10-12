@@ -14,13 +14,17 @@ def batalha(escolha_player1, escolha_player2, ninguém):
 
 
 def main():
+    print("BEM VINDO AO RPG-PÔ!!!")
+    print(" :) :) :) :) :) :) :) ")
+    time.sleep(1)
+
     print("player1,faça sua escolha! você vai à batalha como ladino, mago, ou guerreiro?")
     escolha_player1 = getpass.getpass("player1, digite sua escolha e aperte enter...")
     
     print("player2,faça sua escolha! você vai à batalha como ladino, mago, ou guerreiro?")
     escolha_player2 = getpass.getpass("player2, digite sua escolha e aperte enter...")
     
-    print("uma pessoa misteriosa diz que é ninguém e aposta no nada...")
+    print("um velho misterioso diz que é ninguém e aposta no nada...")
     ninguém = "nada"
 
     time.sleep(1)
@@ -32,7 +36,7 @@ def main():
     vencedor = batalha (escolha_player1, escolha_player2, ninguém)
     if vencedor==escolha_player1: print("player1, você venceu essa grande e honrada batalha!!!")
     if vencedor==escolha_player2: print("player2, você venceu essa grande e honrada batalha!!!")
-    if vencedor==ninguém: print ("a batalha foi muito disputada, ambos morreram, então, não é que aquele velho estava certo? ninguém foi considerado vencedor, nada... nada...")
+    if vencedor==ninguém: print ("a batalha foi muito disputada, ambos morreram, então, não é que aquele velho estava certo? ninguém foi considerado vencedor!... nada... nada...")
 
 
 
