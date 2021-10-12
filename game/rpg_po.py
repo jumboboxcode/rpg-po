@@ -12,7 +12,6 @@ def batalha(escolha_player1, escolha_player2, ninguém):
     if escolha_player1=="guerreiro" and escolha_player2=="guerreiro" and ninguém=="nada": return "nada"
     if escolha_player1=="mago" and escolha_player2=="mago" and ninguém=="nada": return "nada"
 
-
 def main():
     print("BEM VINDO AO RPG-PÔ!!!")
     
@@ -41,13 +40,9 @@ def main():
     if vencedor==escolha_player1: print("player1, você venceu essa grande e honrada batalha!!!")
     if vencedor==escolha_player2: print("player2, você venceu essa grande e honrada batalha!!!")
     if vencedor==ninguém: print ("a batalha foi muito disputada, ambos morreram, então, não é que aquele velho estava certo? ninguém foi considerado vencedor!... nada... nada...")
-
-
-
-
-
-
-
+    preferência = input()
+    
+    
 
 
 
