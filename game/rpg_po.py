@@ -20,7 +20,7 @@ def main():
     print("player2,faça sua escolha! você vai à batalha como ladino, mago, ou guerreiro?")
     escolha_player2 = getpass.getpass("player2, digite sua escolha e aperte enter...")
     
-    print("uma pessoa misteriosa dis que é ninguém e aposta no nada...")
+    print("uma pessoa misteriosa diz que é ninguém e aposta no nada...")
     ninguém = "nada"
 
     time.sleep(1)
