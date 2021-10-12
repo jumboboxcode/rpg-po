@@ -15,8 +15,12 @@ def batalha(escolha_player1, escolha_player2, ninguém):
 
 def main():
     print("BEM VINDO AO RPG-PÔ!!!")
-    print(" :) :) :) :) :) :) :) ")
+    
     time.sleep(1)
+
+    print("aquele era o dia, os player acordavam... eles têm poderes e rivalidades entre sí incríveis... rola uma luta daora!")
+
+    time.sleep(2)
 
     print("player1,faça sua escolha! você vai à batalha como ladino, mago, ou guerreiro?")
     escolha_player1 = getpass.getpass("player1, digite sua escolha e aperte enter...")
