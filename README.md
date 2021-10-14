@@ -20,7 +20,7 @@ E Mago ganha de Ladino, porque apesar de esperto, o Ladino não resiste às brux
 
 ## Como jogar
 
-A versão alfa do jogo funciona por linha de comando através do terminal do seu computador. Os únicos pré-requisitos é ter o  [Python](https://pt.wikipedia.org/wiki/Python) instalado [(dowload)](https://www.python.org/downloads/) no seu computador e a linha de comando, pra rodar.
+A [versão alfa](https://pt.wikipedia.org/wiki/Vers%C3%A3o_alfa) do jogo funciona por linha de comando através do terminal do seu computador. Os únicos pré-requisitos é ter o  [Python](https://pt.wikipedia.org/wiki/Python) instalado [(dowload)](https://www.python.org/downloads/) no seu computador e a linha de comando, onde ocorre a [versão alfa](https://pt.wikipedia.org/wiki/Vers%C3%A3o_alfa).
 
 ### Para rodar
 
@@ -28,7 +28,7 @@ Baixe o código fonte e rode no terminal a partir do diretório baixado o comand
 
 ## Se você quiser programar alguma evolução
 
-O código é aberto, então fique a vontade para implementar o que quiser!
+Ele é de [código aberto](https://pt.wikipedia.org/wiki/C%C3%B3digo_aberto) , então fique a vontade para implementar o que quiser!
 
 Estamos buscando seguir as a sabedoria do [Testivus](https://www.artima.com/weblogs/viewpost.jsp?thread=203994#:~:text=%20The%20Way%20of%20Testivus%20%201%20If,no%20test.%2010%20Good%20tests%20fail.%20More%20), e incentivamos muito você tentar aceitar e internalizar *o Karma dos testes de unidade*:
 
