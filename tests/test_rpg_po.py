@@ -1,3 +1,4 @@
+from typing import Any
 from unittest import TestCase
 import game.rpg_po as rpgpo
 
@@ -68,4 +69,6 @@ class TestRpgPo(TestCase):
         ninguém = "nada"
         vencedor = rpgpo.batalha(escolha_player1, escolha_player2, ninguém)
         self.assertEqual(vencedor, ninguém)
-
+    
+    
+    

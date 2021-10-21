@@ -14,8 +14,12 @@ def batalha(escolha_player1, escolha_player2, ninguém):
     if escolha_player1=="ladino" and escolha_player2=="ladino" and ninguém=="nada": return "nada"
     if escolha_player1=="guerreiro" and escolha_player2=="guerreiro" and ninguém=="nada": return "nada"
     if escolha_player1=="mago" and escolha_player2=="mago" and ninguém=="nada": return "nada"
+    
 
+    if escolha_player1 != ("ladino, mago, guerreiro") and escolha_player2 != ("ladino, mago, guerreiro") and ninguém=="nada": return "nada"
 def main():
+
+
     
 
     print("BEM VINDO AO RPG-PÔ!!!")
@@ -44,10 +48,8 @@ def main():
     vencedor = batalha (escolha_player1, escolha_player2, ninguém)
     if vencedor==escolha_player1: print("player1, você venceu essa grande e honrada batalha!!!")
     if vencedor==escolha_player2: print("player2, você venceu essa grande e honrada batalha!!!")
-    if vencedor==ninguém: print ("a batalha foi muito disputada, ambos morreram, então, não é que aquele velho estava certo? ninguém foi considerado vencedor!... nada... nada...") 
-    if vencedor==ninguém: time.sleep(2)
-    if vencedor==escolha_player1: time.sleep(2)
-    if vencedor==escolha_player2: time.sleep(2)    
+    if vencedor==ninguém: print ("a batalha foi muito disputada, mas vacilaram muito, ambos morreram, então, não é que aquele velho estava certo? ninguém foi considerado vencedor!... nada... nada...") 
+    
 print("você quer entrar em loop de partidas? se não, digite nao, se sim, loop.")
 preferência = input()
 while preferência != 'nao':
