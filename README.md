@@ -54,7 +54,7 @@ Comece pelos testes.
 >
 > *"Se todos os seus testes passam o tempo todo, você precisa escrever melhores testes"*
 
-2. Rode os testes (incluindo esse seu) com o comando `python -m unittest discover"`
+2. Rode os testes (incluindo esse seu) com o comando `python -m unittest discover"` (não selecione o loop.)
 
 3. Veja o teste recém escrito falhar, já que você ainda não implementou o código que resolve o que está sendo testado
 
