@@ -14,6 +14,7 @@ def batalha(escolha_player1, escolha_player2, ninguém):
     if escolha_player1=="ladino" and escolha_player2=="ladino" and ninguém=="nada": return "nada"
     if escolha_player1=="guerreiro" and escolha_player2=="guerreiro" and ninguém=="nada": return "nada"
     if escolha_player1=="mago" and escolha_player2=="mago" and ninguém=="nada": return "nada"
+    if escolha_player1=="mago" and escolha_player2=="mago" and ninguém=="nada": return "nada"
     if escolha_player1 != ("ladino, mago, guerreiro") and escolha_player2 != ("ladino, mago, guerreiro") and ninguém=="nada": return "nada"
 def main():
 
@@ -46,7 +47,7 @@ def main():
     if vencedor==escolha_player2: print("player2, você venceu essa grande e honrada batalha!!!")
     if vencedor==ninguém: print ("a batalha foi uma bagunça! tanto que aquelhe velho foi considerado vencedor!") 
     
-print("Você quer entrar em loop de partidas? se não, digite nao, se sim, loop. (Para sair do loop saia do jogo.")
+print("Você quer entrar em loop de partidas? se não, digite nao, se sim, loop. (Para sair do loop saia do jogo.)")
 preferência = input()
 while preferência != 'nao':
     print("////////////////////////////")
@@ -74,7 +75,7 @@ while preferência != 'nao':
     if vencedor==escolha_player1: print("player1, você venceu essa grande e honrada batalha!!!")
     if vencedor==escolha_player2: print("player2, você venceu essa grande e honrada batalha!!!")
     if vencedor==ninguém: print ("a batalha foi uma bagunça! tanto que aquelhe velho foi considerado vencedor!")
-
+    
 
     
 
