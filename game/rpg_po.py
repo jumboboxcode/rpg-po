@@ -14,7 +14,6 @@ def batalha(escolha_player1, escolha_player2, ninguém):
     if escolha_player1=="ladino" and escolha_player2=="ladino" and ninguém=="nada": return "nada"
     if escolha_player1=="guerreiro" and escolha_player2=="guerreiro" and ninguém=="nada": return "nada"
     if escolha_player1=="mago" and escolha_player2=="mago" and ninguém=="nada": return "nada"
-    if escolha_player1=="mago" and escolha_player2=="mago" and ninguém=="nada": return "nada"
     if escolha_player1 != ("ladino, mago, guerreiro") and escolha_player2 != ("ladino, mago, guerreiro") and ninguém=="nada": return "nada"
 def main():
 
@@ -84,3 +83,4 @@ if  __name__ == "__main__":
 
     
 
+#qualquercoisa
